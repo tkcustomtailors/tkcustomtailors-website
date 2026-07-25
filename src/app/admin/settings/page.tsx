@@ -21,7 +21,7 @@ interface Settings {
 const defaultSettings: Settings = {
   phone: "+94 XX XXX XXXX",
   whatsapp: "+94 XX XXX XXXX",
-  email: "info@tktailors.lk",
+  email: "hello@tkcustomtailors.lk",
   address: "T.K. Custom Tailors, Galle Road, Sri Lanka",
   businessHoursWeekday: "8:00 AM – 6:00 PM",
   businessHoursSaturday: "8:00 AM – 4:00 PM",
