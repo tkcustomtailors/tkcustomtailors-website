@@ -34,8 +34,8 @@ const contacts = [
   {
     icon: Mail,
     title: "Email",
-    value: "info@tktailors.lk",
-    href: "mailto:info@tktailors.lk",
+    value: "hello@tkcustomtailors.lk",
+    href: "mailto:hello@tkcustomtailors.lk",
     description: "We reply within 24 hours",
   },
   {

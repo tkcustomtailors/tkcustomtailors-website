@@ -168,8 +168,8 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={14} className="text-[var(--muted)] mt-0.5 flex-shrink-0" />
-                <a href={settings?.email ? `mailto:${settings.email}` : "mailto:info@tktailors.lk"} className="text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors">
-                  {settings?.email || "info@tktailors.lk"}
+                <a href={settings?.email ? `mailto:${settings.email}` : "mailto:hello@tkcustomtailors.lk"} className="text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors">
+                  {settings?.email || "hello@tkcustomtailors.lk"}
                 </a>
               </li>
               <li className="flex items-start gap-3">
