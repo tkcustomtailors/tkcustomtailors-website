@@ -11,8 +11,9 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1920&q=85"
+          // src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1920&q=85"
           // src="/hero.jpeg"
+          src="/hero1.jpeg"
           alt="Premium tailor workshop"
           fill
           priority
