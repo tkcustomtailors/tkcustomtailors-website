@@ -89,7 +89,7 @@ export default function Navbar() {
                 className="text-[10px] tracking-widest uppercase leading-none mt-0.5"
                 style={{ color: scrolled ? "var(--muted)" : "var(--nav-text-unscrolled)" }}
               >
-                Since 1970
+                (Pvt) Ltd • Est. 1970
               </p>
             </div>
           </Link>
@@ -213,7 +213,7 @@ export default function Navbar() {
                     <Scissors className="w-3.5 h-3.5 text-[var(--background)]" />
                   </div> */}
                   <img src="/icon.svg" alt="Logo" width={50} height={50} className="p-0.5"></img>
-                  <span className="font-serif font-bold text-[var(--foreground)]">T.K. Custom Tailors</span>
+                  <span className="font-serif font-bold text-[var(--foreground)]">T.K. Custom Tailors (Pvt) Ltd.</span>
                 </div>
                 <button
                   onClick={() => setIsOpen(false)}
@@ -256,7 +256,10 @@ export default function Navbar() {
               {/* Mobile footer */}
               <div className="absolute bottom-8 left-5 right-5">
                 <p className="text-xs text-[var(--muted)] text-center">
-                  © 2026 T.K. Custom Tailors · Est. 1970
+                  © 2026 T.K. Custom Tailors (Pvt) Ltd.
+                </p>
+                <p className="text-xs text-[var(--muted)] text-center">
+                  Est. 1970
                 </p>
               </div>
             </motion.div>

@@ -46,7 +46,7 @@ export default function Footer() {
               <img src="/icon.svg" alt="Logo" width={50} height={50} className="p-0.5"></img>
               <div>
                 <span className="font-serif font-bold text-[var(--foreground)] text-lg">T.K. Custom Tailors</span>
-                <p className="text-[10px] text-[var(--muted)] tracking-widest uppercase">Est. 1970</p>
+                <p className="text-[10px] text-[var(--muted)] tracking-widest uppercase">(Pvt) Ltd • Est. 1970</p>
               </div>
             </Link>
             <p className="text-sm text-[var(--muted)] leading-relaxed mb-5">
