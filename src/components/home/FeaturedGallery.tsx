@@ -10,35 +10,40 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 
 const featuredImages = [
   {
-    src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80",
-    alt: "Wedding suit collection",
-    category: "Wedding",
+    // src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80",
+    src:"/shop5.jpeg",
+    alt: "Most valued customers",
+    category: "Customers",
     span: "row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80",
-    alt: "Business suit",
-    category: "Formal",
+    // src: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80",
+    src:"/shop0.jpeg",
+    alt: "Always elegant",
+    category: "workshop",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&q=80",
+    // src: "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&q=80",
+    src:"/owner1.jpeg",
     alt: "Professional attire",
-    category: "Formal",
-    span: "",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-    alt: "Fabric selection",
     category: "Workshop",
-    span: "",
+    span: "row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=600&q=80",
-    alt: "Tailoring detail",
-    category: "Craft",
+    // src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    src:"/fabrics1.jpeg",
+    alt: "Fabric selection",
+    category: "Fabrics",
     span: "",
   },
+  // {
+  //   // src: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=600&q=80",
+  //   src:"/shop3.jpeg",
+  //   alt: "Tailoring detail",
+  //   category: "Craft",
+  //   span: "",
+  // },
 ];
 
 export default function FeaturedGallery() {

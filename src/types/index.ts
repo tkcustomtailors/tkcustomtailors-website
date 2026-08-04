@@ -48,6 +48,7 @@ export interface GalleryImage {
   src: string;
   alt: string;
   category:
+    | "fabrics"
     | "bespoke-suits"
     | "wedding-wear"
     | "formal-wear"

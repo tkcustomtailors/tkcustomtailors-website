@@ -4,6 +4,7 @@ import { Badge } from "lucide-react";
 import { staffMembers } from "@/data/staff";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import SectionHeader from "@/components/ui/SectionHeader";
+import GetInTouchButton from "@/components/ui/GetInTouchButton";
 
 export const metadata: Metadata = {
   title: "Our Staff",
@@ -70,13 +71,15 @@ export default function StaffPage() {
                       </span>
                     </div>
 
-                    <h3 className="font-serif text-xl font-bold text-[var(--foreground)] mb-1">{member.name}</h3>
-                    <p className="text-sm font-semibold text-[var(--muted)] mb-1">{member.position}</p>
-                    <p className="text-xs text-[var(--muted)] italic mb-4">{member.specialization}</p>
+                    <div className="flex flex-col justify-start min-h-[120px]">
+                      <h3 className="font-serif text-xl font-bold text-[var(--foreground)] mb-1">{member.name}</h3>
+                      <p className="text-sm font-semibold text-[var(--muted)] mb-1">{member.position}</p>
+                      <p className="text-xs text-[var(--muted)] italic mb-4">{member.specialization}</p>
+                    </div>
 
                     <div className="elegant-divider mb-4" style={{ margin: "0 auto 1rem" }} />
 
-                    <p className="text-xs text-[var(--muted)] leading-relaxed flex-1">{member.bio}</p>
+                    {/* <p className="text-xs text-[var(--muted)] leading-relaxed flex-1">{member.bio}</p> */}
                   </div>
                 </div>
               </AnimatedSection>
@@ -99,12 +102,7 @@ export default function StaffPage() {
               <p className="text-[var(--muted)] mb-8 leading-relaxed">
                 Are you a skilled tailor with a passion for craftsmanship? We&apos;re always looking for talented individuals to join the T.K. Custom Tailors family.
               </p>
-              <a
-                href="mailto:careers@tktailors.lk"
-                className="inline-flex items-center px-8 py-4 bg-[var(--foreground)] text-[var(--background)] font-semibold text-sm rounded-full hover:opacity-90 transition-all duration-200"
-              >
-                Get In Touch
-              </a>
+              <GetInTouchButton />
             </div>
           </AnimatedSection>
         </div>

@@ -75,7 +75,6 @@ const futurePlans = [
   { icon: MessageSquare, label: "Remote Consultation" },
   { icon: Ruler, label: "Measurement Guidance" },
   { icon: Layers, label: "Fabric Selection Assistance" },
-  { icon: Globe, label: "International Delivery" },
 ];
 
 export default function CraftPage() {
@@ -357,7 +356,7 @@ export default function CraftPage() {
             />
           </AnimatedSection>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mt-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
             {futurePlans.map((plan, index) => {
               const Icon = plan.icon;
               return (

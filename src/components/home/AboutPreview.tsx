@@ -13,7 +13,8 @@ export default function AboutPreview() {
             <div className="relative">
               <div className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-elegant">
                 <Image
-                  src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&q=80"
+                  // src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&q=80"
+                  src="/owner1.jpeg"
                   alt="Master tailor at work"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-700"

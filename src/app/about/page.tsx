@@ -111,14 +111,14 @@ export default function AboutPage() {
                 era: "Since 1935",
                 title: "The Beginning",
                 description: "T.K. Custom Tailors was founded by Thenkutti Suvinel Silva.",
-                img: "/generations/gen1.png",
+                img: "/generations/GFather.jpg",
                 alt: "Founder Thenkutti Suvinel Silva",
               },
               {
                 era: "2nd Generation",
                 title: "The Legacy Continues",
                 description: "Thenkutti Karunasena Silva carried the craft forward.",
-                img: "/generations/gen2.png",
+                img: "/generations/Father.jpg",
                 alt: "Thenkutti Karunasena Silva",
               },
               {
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 title: "A New Chapter",
                 description:
                   "Under CEO Thenkutti Dumindu Shemal Silva, the business enters its third generation.",
-                img: "/generations/gen3.png",
+                img: "/generations/owner.jpg",
                 alt: "CEO Thenkutti Dumindu Shemal Silva",
               },
             ].map((gen, index) => (
@@ -178,7 +178,7 @@ export default function AboutPage() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500&q=80"
+                    src="/generations/GFather.jpg"
                     alt="Master tailor at work"
                     fill
                     className="object-cover"
@@ -187,7 +187,7 @@ export default function AboutPage() {
                 </div>
                 <div className="relative aspect-[3/4] rounded-2xl overflow-hidden mt-8">
                   <Image
-                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80"
+                    src="/generations/Father.jpg"
                     alt="Premium fabric selection"
                     fill
                     className="object-cover"
@@ -332,12 +332,12 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12">
             {[
-              { src: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&q=80", alt: "Shop interior" },
-              { src: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80", alt: "Tailoring workshop" },
-              { src: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80", alt: "Suit display" },
+              { src: "/shop0.jpeg", alt: "Shop interior" },
+              { src: "/owner1.jpeg", alt: "Shirt tailoring" },
+              { src: "/fabrics3.jpeg", alt: "Suit display" },
               { src: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80", alt: "Shirt tailoring" },
               { src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80", alt: "Fabric collection" },
-              { src: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=600&q=80", alt: "Detail work" },
+              { src: "/shop5.jpeg", alt: "Our Valueble Customers" },
             ].map((img, index) => (
               <AnimatedSection key={img.src} delay={index * 0.07}>
                 <div className="relative aspect-square rounded-xl overflow-hidden group">

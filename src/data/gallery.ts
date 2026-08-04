@@ -2,6 +2,31 @@
 import { GalleryImage } from "@/types";
 
 export const galleryImages: GalleryImage[] = [
+  //Fabrics
+  {
+    id: "f1",
+    src: "/fabrics1.jpeg",
+    alt: "Fabrics",
+    category: "fabrics",
+    width: 600,
+    height: 750,
+  },
+  {
+    id: "f2",
+    src: "/fabrics2.jpeg",
+    alt: "fabrics",
+    category: "fabrics",
+    width: 600,
+    height: 750,
+  },
+  {
+    id: "f3",
+    src: "/fabrics3.jpeg",
+    alt: "Fabrics",
+    category: "fabrics",
+    width: 600,
+    height: 750,
+  },
   // Bespoke Suits
   {
     id: "b1",
