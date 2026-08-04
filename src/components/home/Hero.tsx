@@ -12,8 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           // src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1920&q=85"
-          // src="/hero.jpeg"
-          src="/hero1.jpeg"
+          src="/hero.jpeg"
           alt="Premium tailor workshop"
           fill
           priority
@@ -21,7 +20,7 @@ export default function Hero() {
           sizes="100vw"
         />
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/80" />
       </div>
 
       {/* Content */}
