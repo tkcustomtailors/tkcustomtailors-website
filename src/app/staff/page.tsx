@@ -45,18 +45,18 @@ export default function StaffPage() {
               {
                 id: "ceo",
                 name: "CEO Name",
-                role: "Cheif Executive Officer",
+                role: "Chief Executive Officer",
                 experience: "00+ Years",
                 description: "A short description about the CEO goes here. Their legacy, vision, and contribution to the craft.",
-                image: "/generations/Owner.jpg",
+                image: "/generations/owner.jpg",
               },
               {
-                id: "ceo",
+                id: "owner",
                 name: "CEO Name",
                 role: "Chief Executive Officer",
                 experience: "00+ Years",
                 description: "A short description about the CEO goes here. Their leadership style, passion, and goals for the future.",
-                image: "/generations/Owner.jpg",
+                image: "/generations/owner.jpg",
               },
               {
                 id: "manager",
