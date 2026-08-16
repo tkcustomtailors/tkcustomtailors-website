@@ -29,8 +29,95 @@ export default function StaffPage() {
         </div>
       </section>
 
-      {/* Staff Grid */}
+      {/* Leadership Cards */}
       <section className="section-padding" style={{ backgroundColor: "var(--background)" }}>
+        <div className="container-max">
+          <AnimatedSection>
+            <SectionHeader
+              eyebrow="Leadership"
+              title="Meet Our Leaders"
+              subtitle="The visionaries who guide T.K. Custom Tailors with passion, expertise, and a deep respect for the craft."
+            />
+          </AnimatedSection>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+            {[
+              {
+                id: "ceo",
+                name: "CEO Name",
+                role: "Cheif Executive Officer",
+                experience: "00+ Years",
+                description: "A short description about the CEO goes here. Their legacy, vision, and contribution to the craft.",
+                image: "/generations/Owner.jpg",
+              },
+              {
+                id: "ceo",
+                name: "CEO Name",
+                role: "Chief Executive Officer",
+                experience: "00+ Years",
+                description: "A short description about the CEO goes here. Their leadership style, passion, and goals for the future.",
+                image: "/generations/Owner.jpg",
+              },
+              {
+                id: "manager",
+                name: "Manager Name",
+                role: "Manager",
+                experience: "00+ Years",
+                description: "A short description about the manager goes here. Their expertise and day-to-day role in the business.",
+                image: "/Staff/Manager.jpg",
+              },
+            ].map((leader, index) => (
+              <AnimatedSection key={leader.id} delay={index * 0.12}>
+                <div className="card group overflow-hidden flex flex-col h-full">
+                  {/* Portrait image */}
+                  <div className="relative w-full aspect-[3/4] overflow-hidden">
+                    <Image
+                      src={leader.image}
+                      alt={leader.name}
+                      fill
+                      className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      unoptimized
+                    />
+                    {/* Role badge */}
+                    <div
+                      className="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase"
+                      style={{ backgroundColor: "var(--foreground)", color: "var(--background)" }}
+                    >
+                      {leader.role}
+                    </div>
+                  </div>
+
+                  {/* Info */}
+                  <div className="p-6 flex flex-col flex-1">
+                    {/* Experience */}
+                    <div className="flex items-center gap-1.5 mb-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[var(--foreground)] inline-block" />
+                      <span
+                        className="text-xs font-semibold uppercase tracking-widest"
+                        style={{ color: "var(--muted)" }}
+                      >
+                        {leader.experience} Experience
+                      </span>
+                    </div>
+
+                    <h3 className="font-serif text-xl font-bold text-[var(--foreground)] mb-2">
+                      {leader.name}
+                    </h3>
+                    <div className="elegant-divider mb-3" />
+                    <p className="text-sm text-[var(--muted)] leading-relaxed flex-1">
+                      {leader.description}
+                    </p>
+                  </div>
+                </div>
+              </AnimatedSection>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Staff Grid */}
+      <section className="section-padding" style={{ backgroundColor: "var(--section-alt)" }}>
         <div className="container-max">
           <AnimatedSection>
             <SectionHeader

@@ -15,10 +15,7 @@ const categories = [
   { id: "fabrics", label: "Our Fabrics" },
   { id: "bespoke-suits", label: "Bespoke Suits" },
   // { id: "wedding-wear", label: "Wedding Wear" },
-  { id: "formal-wear", label: "Formal Wear" },
-  { id: "corporate", label: "Corporate" },
-  // { id: "school-uniforms", label: "School Uniforms" },
-  { id: "ladies-collection", label: "Ladies’ Collection" },
+  { id: "interior", label: "Interior" },
   { id: "craftsmanship", label: "Craftsmanship" },
 ];
 

@@ -302,18 +302,20 @@ export default function GuestBookPage() {
                     backgroundColor: "var(--muted-bg)",
                   }}
                 >
-                  {/* Bookmark Ribbon */}
-                  <div
-                    className="absolute top-0 left-8 sm:left-1/2 sm:-ml-3 w-5 h-20 sm:h-28 z-40 rounded-b-md shadow-md pointer-events-none transition-all duration-300"
-                    style={{
-                      background: "linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%)",
-                      borderBottom: "3px solid #b91c1c",
-                    }}
-                  >
-                    <div className="w-full h-full flex items-end justify-center pb-2">
-                      <Bookmark className="w-3 h-3 text-amber-300/80" />
+                  {/* Bookmark Ribbon (Desktop Only) */}
+                  {isDesktop && (
+                    <div
+                      className="hidden lg:block absolute top-0 left-1/2 -ml-2.5 w-5 h-28 z-40 rounded-b-md shadow-md pointer-events-none transition-all duration-300"
+                      style={{
+                        background: "linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%)",
+                        borderBottom: "3px solid #b91c1c",
+                      }}
+                    >
+                      <div className="w-full h-full flex items-end justify-center pb-2">
+                        <Bookmark className="w-3 h-3 text-amber-300/80" />
+                      </div>
                     </div>
-                  </div>
+                  )}
 
                   {/* Book Open Page Container (3D Perspective Viewport) */}
                   <div
