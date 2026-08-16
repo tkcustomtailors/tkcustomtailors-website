@@ -10,7 +10,7 @@ export const staffMembers: StaffMember[] = [
     specialization: "Bespoke Suits & Wedding Wear",
     bio: "The visionary behind T.K. Custom Tailors, with over three decades of mastery in the art of tailoring. Known for his uncompromising attention to detail and ability to translate a client's vision into a perfect garment.",
     // image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
-    image: "/Manager.jpg",
+    image: "/Staff/Member1.jpg",
   },
   {
     id: "2",

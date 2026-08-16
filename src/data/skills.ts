@@ -26,7 +26,7 @@ export const skills: Skill[] = [
       "Button and detail customization",
       "Personal style consultation",
     ],
-    image: "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=800&q=80",
+    image: "/Customers/Customers1.jpg",
   },
   {
     id: "shirt-tailoring",
@@ -78,7 +78,7 @@ export const skills: Skill[] = [
       "Quality assessment expertise",
       "Budget-friendly options",
     ],
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    image: "/Fabrics/Fabrics1.jpeg",
   },
   {
     id: "alterations",
@@ -86,12 +86,12 @@ export const skills: Skill[] = [
     description:
       "Even the finest garment can benefit from expert alterations. Our alteration specialists handle everything from simple hemming to complete restructuring, breathing new life into beloved pieces.",
     benefits: [
-      "Same-day alterations available",
+      // "Same-day alterations available",
       "Preserves garment integrity",
       "All fabric types handled",
       "Competitive pricing",
     ],
-    image: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&q=80",
+    image: "/Customers/Customers4.jpg",
   },
   {
     id: "traditional-clothing",
@@ -117,7 +117,7 @@ export const skills: Skill[] = [
       "Regular fit check-ins",
       "Posture-aware fitting",
     ],
-    image: "https://images.unsplash.com/photo-1445205170230-053b83016050?w=800&q=80",
+    image: "/Workshop/Workshop1.jpg",
   },
   {
     id: "premium-stitching",
@@ -130,6 +130,6 @@ export const skills: Skill[] = [
       "Premium thread selection",
       "Long-lasting construction",
     ],
-    image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=800&q=80",
+    image: "/Workshop/Workshop5.jpg",
   },
 ];

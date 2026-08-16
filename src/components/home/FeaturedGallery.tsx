@@ -11,14 +11,14 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 const featuredImages = [
   {
     // src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80",
-    src:"/shop5.jpeg",
+    src:"/Customers/Customers2.jpg",
     alt: "Most valued customers",
     category: "Customers",
     span: "row-span-2",
   },
   {
     // src: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80",
-    src:"/shop0.jpeg",
+    src:"/Shop/Shop0.jpeg",
     alt: "Always elegant",
     category: "workshop",
     span: "",
@@ -32,7 +32,7 @@ const featuredImages = [
   },
   {
     // src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-    src:"/fabrics1.jpeg",
+    src:"/Fabrics/Fabrics1.jpeg",
     alt: "Fabric selection",
     category: "Fabrics",
     span: "",

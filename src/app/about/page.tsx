@@ -332,12 +332,12 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12">
             {[
-              { src: "/shop0.jpeg", alt: "Shop interior" },
+              { src: "/Shop/Shop4.jpg", alt: "Shop interior" },
               { src: "/owner1.jpeg", alt: "Shirt tailoring" },
-              { src: "/fabrics3.jpeg", alt: "Suit display" },
-              { src: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80", alt: "Shirt tailoring" },
-              { src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80", alt: "Fabric collection" },
-              { src: "/shop5.jpeg", alt: "Our Valueble Customers" },
+              { src: "/Fabrics/Fabrics1.jpeg", alt: "Fabric collection" },
+              { src: "/Workshop/Workshop3.jpg", alt: "Tailor at work" },
+              { src: "/Workshop/Workshop9.jpg", alt: "Coat pressing" },
+              { src: "/Shop/Shop6.jpg", alt: "Fabric collection" },
             ].map((img, index) => (
               <AnimatedSection key={img.src} delay={index * 0.07}>
                 <div className="relative aspect-square rounded-xl overflow-hidden group">

@@ -51,10 +51,7 @@ export interface GalleryImage {
     | "fabrics"
     | "bespoke-suits"
     | "wedding-wear"
-    | "formal-wear"
-    | "corporate"
-    | "school-uniforms"
-    | "ladies-collection"
+    | "interior"
     | "craftsmanship";
   width: number;
   height: number;
