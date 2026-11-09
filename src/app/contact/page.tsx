@@ -84,31 +84,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map */}
-      {/* <section className="relative h-96 overflow-hidden">
-        <iframe
-          src={settings?.mapEmbedUrl || "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.6!2d80.6350011!3d7.2905715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMTcnMjYuMSJOIDgwwrAzOCcwNi4wIkU!5e0!3m2!1sen!2slk!4v1234567890"}
-          width="100%"
-          height="100%"
-          style={{ border: 0, filter: "grayscale(100%) contrast(1.1)" }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="T.K. Custom Tailors Location"
-        />
-        <div className="absolute bottom-4 right-4">
-          <a
-            href="https://maps.app.goo.gl/LesCBGYXMc33oGb59"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold shadow-lg hover:shadow-xl transition-shadow flex items-center gap-2"
-          >
-            <MapPin size={14} />
-            Get Directions
-          </a>
-        </div>
-      </section> */}
-
       {/* Contact Info + Form */}
       <section className="section-padding" style={{ backgroundColor: "var(--background)" }}>
         <div className="container-max">
@@ -342,6 +317,21 @@ export default function ContactPage() {
               </AnimatedSection>
             </div>
           </div>
+
+          {/* Map */}
+          <div className="mt-10">
+            <section className="w-full h-[400px] lg:h-[500px] relative bg-[var(--muted-bg)]">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.3151094594239!2d79.99285549999999!3d6.4415077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae22e63efabf683%3A0x92b779039323c6b3!2sT.K.%20Custom%20Tailors!5e0!3m2!1sen!2slk!4v1794211449867!5m2!1sen!2slk" 
+                className="absolute top-0 left-0 w-full h-full grayscale-[20%] contrast-[1.1] opacity-90 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+                style={{ border: 0 }} 
+                allowFullScreen={true} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </section>
+          </div>
+
         </div>
       </section>
     </>
