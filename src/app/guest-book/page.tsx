@@ -62,42 +62,42 @@ export default function GuestBookPage() {
   }, []);
 
   // Demo entries for when Firebase data isn't loaded
-  const demoEntries: GuestBookEntry[] = [
-    {
-      id: "demo1",
-      imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
-      caption:
-        "The bespoke suit crafted for my wedding was absolute perfection! The attention to detail and fit surpassed all expectations. Thank you T.K. Tailors!",
-      uploadedAt: new Date(2025, 10, 14).toISOString(),
-      uploadedBy: "Rajith Wickramasinghe",
-    },
-    {
-      id: "demo2",
-      imageUrl: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&q=80",
-      caption:
-        "Outfitted our entire corporate executive team with custom blazers. Incredible craftsmanship and prompt service throughout.",
-      uploadedAt: new Date(2025, 11, 20).toISOString(),
-      uploadedBy: "Nimal Fernando",
-    },
-    {
-      id: "demo3",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      caption:
-        "Three generations of mastery shows in every stitch. My linen summer suit is hands down the best garment in my wardrobe.",
-      uploadedAt: new Date(2026, 1, 5).toISOString(),
-      uploadedBy: "Duminda Silva",
-    },
-    {
-      id: "demo4",
-      imageUrl: "https://images.unsplash.com/photo-1594938298603-c8148c4b4f6d?w=800&q=80",
-      caption:
-        "The alteration work on my grandfather's vintage coat made it fit like it was sewn yesterday. Master class tailoring!",
-      uploadedAt: new Date(2026, 2, 12).toISOString(),
-      uploadedBy: "Kamal Perera",
-    },
-  ];
+  // const demoEntries: GuestBookEntry[] = [
+  //   {
+  //     id: "demo1",
+  //     imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
+  //     caption:
+  //       "The bespoke suit crafted for my wedding was absolute perfection! The attention to detail and fit surpassed all expectations. Thank you T.K. Tailors!",
+  //     uploadedAt: new Date(2025, 10, 14).toISOString(),
+  //     uploadedBy: "Rajith Wickramasinghe",
+  //   },
+  //   {
+  //     id: "demo2",
+  //     imageUrl: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&q=80",
+  //     caption:
+  //       "Outfitted our entire corporate executive team with custom blazers. Incredible craftsmanship and prompt service throughout.",
+  //     uploadedAt: new Date(2025, 11, 20).toISOString(),
+  //     uploadedBy: "Nimal Fernando",
+  //   },
+  //   {
+  //     id: "demo3",
+  //     imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+  //     caption:
+  //       "Three generations of mastery shows in every stitch. My linen summer suit is hands down the best garment in my wardrobe.",
+  //     uploadedAt: new Date(2026, 1, 5).toISOString(),
+  //     uploadedBy: "Duminda Silva",
+  //   },
+  //   {
+  //     id: "demo4",
+  //     imageUrl: "https://images.unsplash.com/photo-1594938298603-c8148c4b4f6d?w=800&q=80",
+  //     caption:
+  //       "The alteration work on my grandfather's vintage coat made it fit like it was sewn yesterday. Master class tailoring!",
+  //     uploadedAt: new Date(2026, 2, 12).toISOString(),
+  //     uploadedBy: "Kamal Perera",
+  //   },
+  // ];
 
-  const displayEntries = entries.length > 0 ? entries : loading ? [] : demoEntries;
+  const displayEntries = entries;
   const totalDisplay = displayEntries.length;
   const step = isDesktop ? 2 : 1;
 
